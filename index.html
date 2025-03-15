@@ -5,11 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/boxicons-2.1.4/css/boxicons.min.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
   </head>
   <body>
-    <i class="bx bx-user"></i>
-    <i class="bx bxs-user"></i>
-    <i class="bx bxl-facebook-square"></i>
+    <header class="header">
+      <a href="#" class="logo"><span>Biodun</span> Adepoju</a>
+
+      <nav class="navbar">
+        <a href="#" class="active">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="#">Experience</a>
+        <a href="#">Projects</a>
+        <a href="#">Education</a>
+      </nav>
+
+      <a href="#" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h3>Hi</h3>
+
+        <h1>
+          I'm <span>Biodun<br /></span>a Front-end Developer
+        </h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          officiis ducimus esse nostrum omnis ipsam consectetur? Nam voluptates
+          nobis, blanditiis, obcaecati, incidunt iusto id consectetur tempora
+          illo inventore qui suscipit!
+        </p>
+
+        <div class="btn-box">
+          <button class="btn-1">Hire Me</button>
+          <button class="btn-2">Experience</button>
+        </div>
+      </div>
+
+      <div class="img-box">
+        <img src="/image.webp" alt="Profile Image" />
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-img">
+        <img src="/image.webp" alt="Profile Image" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Front-end <span>Developer</span></h3>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+          accusamus harum expedita vero, totam illum non quaerat, facilis
+          aperiam blanditiis beatae soluta illo laborum, labore ad aspernatur
+          ratione magnam voluptate! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Delectus, explicabo? Harum quisquam asperiores,
+          mollitia ducimus similique nesciunt eos maiores provident a sapiente
+          veniam sint, labore ab distinctio ut praesentium explicabo?
+        </p>
+
+        <a href="#" class="btn-2">Experience</a>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2 class="contact-me">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <label for="f-name"></label>
+          <input type="text" name="f-name" id="" placeholder="Full Name" />
+
+          <label for="email"></label>
+          <input type="text" name="email" id="" placeholder="Email" />
+        </div>
+
+        <div class="input-box">
+          <label for="number"></label>
+          <input type="number" name="number" placeholder="Phone Number" />
+
+          <label for="subject"></label>
+          <input type="text" name="subject" placeholder="Subject" />
+        </div>
+
+        <label for="message"></label>
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+
+        <input type="submit" value="Send Message" class="btn-1" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="#">
+          <i class="bx bxl-facebook-circle"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+        <a href="">
+          <i class="bx bxl-github"></i>
+        </a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; 2025 Biodun | All Rights Reserved</p>
+    </footer>
   </body>
 </html>
